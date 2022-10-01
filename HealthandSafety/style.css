@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.images{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/employees-working-from-home\ \(1\).png);
+    width:auto;
+    height:600px;
+    background-size:cover;
+}
+
+.main2{
+    display:inline-block;
+
+}
+
+.container{
+    display:inline-flex;
+    margin-top:50px;
+}
+
+.container img{
+    width:400px;
+    height:300px;
+    margin-left:300px;
+    border-radius:50px 0px 0px 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/COVID_Kerala_palakkad_1200_PTI.jpg);
+}
+
+
+.container{
+    display:inline-flex;
+    margin-top:50px;
+}
+
+.container img{
+    width:400px;
+    height:300px;
+    margin-left:100px;
+    border-radius:50px 0px 0px 50px;
+}
+
+.description,#description2,#description3{
+    width:400px;
+    background:rgb(210, 217, 217);
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    color:rgb(25, 133, 162);
+        
+}
+
+ol {
+    list-style-type: square;
+    margin-left:40px;  
+    margin-top:25px;
+    font-size:30px; 
+    color:rgb(75, 112, 224);
+    font-family:Trebuchet MS;
+    line-height: 50px;
+    
+}
+
+
+#container2{
+    display:inline-flex;
+    margin-top:50px;
+    
+}
+
+#container2 img{
+    width:400px;
+    height:300px;
+    margin-left:500px;     
+    border-radius:50px 0px 0px 50px;
+
+}
+
+
+#container3{
+    display:inline-flex;
+    margin-top:50px;
+    
+}
+
+#container3 img{
+    width:400px;
+    height:300px;
+    margin-left:100px;     
+    border-radius:50px 0px 0px 50px;
+
+}
+
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/images.jpg);
+    padding:0;
+    margin:0;
+}
+
+.second{
+    height:400px;
+    margin-top:50px;
+    background:white;
+    margin:auto;
+}
+
+
+.second p{
+    font-size:250px;
+    background:white;
+    width:350px;
+    position:relative;
+    left:720px;
+    top:-620px;
+    color:red;
+    font-weight:800;
+ 
+}
+
+.second2 img{
+    position:relative;
+    left:450px;
+    top:-70px;
+}
+
+iframe{
+    width:560px;
+    height:315px;
+    margin-left:80px;
+    padding:20px;
+}
+
+.footer{
+    width:auto;
+    height:200px;
+    position:relative;
+    top:-1400px;
+}
+
+.footer h2{
+    padding:50px;
+    font-size:20px;
+    color:white;
+    font-family:Apple Chancery;
+    word-spacing: 10px; 
+    letter-spacing: 8px; 
+}
+
+.footer h3{
+    margin-top:-30px;
+    margin-left: 40px;
+    font-size:1px;
+ 
+}
+
+.footer a{
+    color:bisque;
+    font-family:Georgia;
+    letter-spacing:2px;
+    text-decoration: none;
+
+
+}
+
+.footer a:hover{
+    color:azure;
+}
+
+.btn2 {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-size: 20px;
+    font-weight: 4bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-right: 30px;
+}
+
+.btn2:hover {
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+
+.solution{
+    background-color:white;
+    height:1000px;
+    margin-top:-220px;
+}
+
+.solution h1{
+    text-align: center;
+    padding-top:20px;
+    color:rgb(7, 103, 112);
+    font-weight:700;
+}
+
+.solution h2{
+    font-style:italic;
+    color:rgb(30, 172, 177);
+}
+
+.solution .more a{
+    border-radius:80px 80px 80px 80px;
+    background-color:rgb(69, 145, 146);
+    text-decoration: none;
+    border:10px solid rgb(69, 145, 146);;
+    color:black;
+    
+}
+
+.solution .box{
+    height:120px;
+    background-color: rgb(178, 216, 213);
+    margin-left:50px;
+    margin-right:50px;
+    border:10px dashed rgb(7, 103, 120);
+}
+
+.solution .box h3{
+    text-align: center;
+}
+
+.list ol{
+    color:rgb(14, 86, 125);
+}
+
+.solution p{
+    text-align: center;
+    font-weight:800;
+    padding:5px;
+    font-size:20px;
+}
+
+.boxes{
+    height:120px;
+    background-color: rgb(141, 195, 188);
+    margin-left:20px;
+    margin-right:20px;
+    border:10px dashed rgb(14, 104, 121);
+}
+
+
+.more {
+   padding: 50px;
+   margin-left: 650px;
+}
+
+.more a{
+    color:bisque;
+    font-family:Georgia;
+    letter-spacing:2px;
+    text-decoration: none;
+}
+
+.more a:hover{
+    color:azure;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-size: 20px;
+    font-weight: 4bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-right: 30px;
+}
+
+.btn:hover {
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}

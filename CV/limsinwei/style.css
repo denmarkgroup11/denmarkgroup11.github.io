@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+    border:2px solid;
+    box-sizing: border-box;
+}
+body{
+    width:90%;
+    margin-left: 5rem;
+    box-sizing: border-box;
+}
+h3{
+    border-bottom: #42159d solid;
+    text-transform:uppercase;
+    font-size: 1.5rem;
+}
+.left-box{
+    background-color: #130927;
+    color: white;
+    width: 45%;
+    padding:2rem;
+}
+.detail>:first-child{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+.personalinfo img{
+    width:50%;
+    border-radius:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.personalinfo{
+    margin-top: -1rem;
+}
+.aboutme{
+    padding-top: 1rem;
+}
+.content{
+    line-height: 2rem;
+}
+.right-box{ 
+    padding:3rem;
+    padding-top: 1rem;
+}
+.right1{
+    display: flex;
+    margin-top:-2rem;
+}
+.desc{
+    padding-left:3rem;
+}
+.right2{
+    margin-top:-1rem;
+}
+.detail,.right1,.right2,.content{
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hobby1>p,.hobby2>p{
+    margin-top: -10px;
+}
+.polaroid {
+    width: 16.5rem;
+    padding: .625rem .625rem 1.25rem .625rem;
+    margin-top:2rem;
+    border: 2px solid #BFBFBF;
+    background-color: white;
+    box-shadow: .625rem .625rem 0.3125rem #aaaaaa;
+}
+.rotate_right {
+    float: left;
+    transform: rotate(7deg);
+}
+.rotate_left {
+    float: left;
+    transform: rotate(-8deg);
+}
+.polaroid>img{
+    width: 16.5rem;
+    height: 13.25rem;
+}
